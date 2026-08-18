@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "id": "002",
+    "title": "今天天气怎么样 - Hôm nay thời tiết thế nào",
+    "slug": "002",
+    "level": "HSK1",
+    "speakers": ["小明", "小红"],
+    "youtubeUrl": "https://www.youtube.com/watch?v=REPLACE_ME",
+    "publishDate": "2026-08-08",
+    "access": "FREE"
+  },
+  "publicContent": {
+    "transcript": "小红：今天天气怎么样？\n小明：今天很热，但是不下雨。\n小红：太好了，我们去公园吧。",
+    "pinyin": "Xiǎohóng: Jīntiān tiānqì zěnmeyàng?\nXiǎomíng: Jīntiān hěn rè, dànshì bú xiàyǔ.\nXiǎohóng: Tài hǎo le, wǒmen qù gōngyuán ba.",
+    "translation": "Hồng: Hôm nay thời tiết thế nào?\nMinh: Hôm nay nóng, nhưng không mưa.\nHồng: Tuyệt quá, chúng mình đi công viên đi.",
+    "vocabulary": [
+      { "word": "天气", "pinyin": "tiānqì", "meaning": "thời tiết" },
+      { "word": "下雨", "pinyin": "xiàyǔ", "meaning": "trời mưa" },
+      { "word": "公园", "pinyin": "gōngyuán", "meaning": "công viên" }
+    ],
+    "basicExplanation": "怎么样 (zěnmeyàng) dùng để hỏi ý kiến/tình trạng, nghĩa là 'thế nào'."
+  },
+  "memberContent": {
+    "detailedExplanation": "",
+    "detailedVocabulary": [],
+    "comprehensionQuiz": [],
+    "vocabularyExercises": [],
+    "listeningExercises": [],
+    "practice": [],
+    "answers": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "id": "001",
+    "title": "第一次见面 - Lần đầu gặp mặt",
+    "slug": "001",
+    "level": "HSK1",
+    "speakers": ["小明", "小红"],
+    "youtubeUrl": "https://www.youtube.com/watch?v=REPLACE_ME",
+    "publishDate": "2026-08-01",
+    "access": "FREE"
+  },
+  "publicContent": {
+    "transcript": "小明：你好！你叫什么名字？\n小红：我叫小红。你呢？\n小明：我叫小明。很高兴认识你。",
+    "pinyin": "Xiǎomíng: Nǐ hǎo! Nǐ jiào shénme míngzì?\nXiǎohóng: Wǒ jiào Xiǎohóng. Nǐ ne?\nXiǎomíng: Wǒ jiào Xiǎomíng. Hěn gāoxìng rènshi nǐ.",
+    "translation": "Minh: Chào bạn! Bạn tên gì?\nHồng: Mình tên Hồng. Còn bạn?\nMinh: Mình tên Minh. Rất vui được quen bạn.",
+    "vocabulary": [
+      { "word": "你好", "pinyin": "nǐ hǎo", "meaning": "xin chào" },
+      { "word": "名字", "pinyin": "míngzì", "meaning": "tên" },
+      { "word": "高兴", "pinyin": "gāoxìng", "meaning": "vui vẻ" }
+    ],
+    "basicExplanation": "叫 (jiào) dùng để nói tên của mình, ví dụ: 我叫... (Tôi tên là...)."
+  },
+  "memberContent": {
+    "detailedExplanation": "",
+    "detailedVocabulary": [],
+    "comprehensionQuiz": [],
+    "vocabularyExercises": [],
+    "listeningExercises": [],
+    "practice": [],
+    "answers": []
+  }
+}

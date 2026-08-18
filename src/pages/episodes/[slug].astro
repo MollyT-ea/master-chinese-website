@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SupportBlock from '../../components/SupportBlock.astro';
+
+export async function getStaticPaths() {
+  const episodeFiles = import.meta.glob('../../data/episodes/*.json', { eager: true });
+  return Object.values(episodeFiles).map((mod) => {
+    const ep = mod.default;
+    return { params: { slug: ep.metadata.slug }, props: { ep } };
+  });
+}
+
+const { ep } = Astro.props;
+const { metadata, publicContent } = ep;
+---
+<Layout title={metadata.title}>
+  <p><a href="/">&larr; Về trang chủ</a></p>
+  <span class="level">{metadata.level}</span>
+  <h2>{metadata.title}</h2>
+  <p><a href={metadata.youtubeUrl} target="_blank" rel="noopener">▶ Xem trên YouTube</a></p>
+
+  <div class="section-block">
+    <h2>Transcript</h2>
+    <p class="chinese-text">{publicContent.transcript}</p>
+  </div>
+
+  <div class="section-block">
+    <h2>Pinyin</h2>
+    <p class="pinyin-text">{publicContent.pinyin}</p>
+  </div>
+
+  <div class="section-block">
+    <h2>Dịch nghĩa</h2>
+    <p class="translation-text">{publicContent.translation}</p>
+  </div>
+
+  <div class="section-block">
+    <h2>Từ vựng</h2>
+    {publicContent.vocabulary.map((v) => (
+      <div class="vocab-item">
+        <span class="vocab-word">{v.word}</span>
+        <span class="vocab-pinyin">{v.pinyin}</span>
+        <span class="vocab-meaning">{v.meaning}</span>
+      </div>
+    ))}
+  </div>
+
+  <div class="section-block">
+    <h2>Giải thích cơ bản</h2>
+    <p>{publicContent.basicExplanation}</p>
+  </div>
+
+  <!--
+    Ghi chú cho AI/dev tương lai (theo mục XV, XIX của spec):
+    ep.memberContent tồn tại trong data nhưng KHÔNG được render ở đây khi access = MEMBER.
+    Khi triển khai V2, phần MEMBER phải được backend kiểm tra membership rồi mới trả về,
+    không được để dữ liệu này lọt vào HTML/JS công khai như trang này.
+  -->
+
+  <SupportBlock />
+</Layout>

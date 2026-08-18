@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SupportBlock from '../components/SupportBlock.astro';
+
+const episodeFiles = import.meta.glob('../data/episodes/*.json', { eager: true });
+const episodes = Object.values(episodeFiles)
+  .map((mod) => mod.default)
+  .sort((a, b) => new Date(b.metadata.publishDate) - new Date(a.metadata.publishDate));
+---
+<Layout title="Trang chủ">
+  <p>Podcast học tiếng Trung mỗi ngày — kèm transcript, pinyin, dịch nghĩa và từ vựng miễn phí.</p>
+
+  <input class="search-box" id="search" type="text" placeholder="Tìm episode theo tên..." />
+
+  <div id="episodes">
+    {episodes.map((ep) => (
+      <a class="episode-card" href={`/episodes/${ep.metadata.slug}`} data-title={ep.metadata.title.toLowerCase()}>
+        <span class="level">{ep.metadata.level}</span>
+        <h3>{ep.metadata.title}</h3>
+        <span>{ep.metadata.publishDate}</span>
+      </a>
+    ))}
+  </div>
+
+  <SupportBlock />
+</Layout>
+
+<script>
+  const input = document.getElementById('search');
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase();
+    document.querySelectorAll('.episode-card').forEach((card) => {
+      const title = card.getAttribute('data-title');
+      card.style.display = title.includes(q) ? '' : 'none';
+    });
+  });
+</script>
