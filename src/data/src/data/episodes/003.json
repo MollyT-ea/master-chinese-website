@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "id": "003",
+    "title": "[TIÊU ĐỀ TIẾNG TRUNG - Tiêu đề tiếng Việt]",
+    "slug": "003",
+    "level": "[HSK1 / HSK2 / HSK3...]",
+    "speakers": ["小明", "小红"],
+    "youtubeUrl": "[DÁN LINK YOUTUBE TẬP NÀY VÀO ĐÂY]",
+    "publishDate": "[NĂM-THÁNG-NGÀY, ví dụ: 2026-08-18]",
+    "access": "FREE"
+  },
+  "publicContent": {
+    "transcript": "[DÁN TOÀN BỘ TRANSCRIPT TIẾNG TRUNG VÀO ĐÂY, các câu cách nhau bằng \\n]",
+    "pinyin": "[DÁN PINYIN TƯƠNG ỨNG VÀO ĐÂY, các câu cách nhau bằng \\n]",
+    "translation": "[DÁN BẢN DỊCH TIẾNG VIỆT VÀO ĐÂY, các câu cách nhau bằng \\n]",
+    "vocabulary": [
+      { "word": "[từ 1]", "pinyin": "[pinyin]", "meaning": "[nghĩa]" },
+      { "word": "[từ 2]", "pinyin": "[pinyin]", "meaning": "[nghĩa]" },
+      { "word": "[từ 3]", "pinyin": "[pinyin]", "meaning": "[nghĩa]" }
+    ],
+    "basicExplanation": "[GIẢI THÍCH NGẮN VỀ 1 ĐIỂM NGỮ PHÁP/TỪ VỰNG ĐÁNG CHÚ Ý TRONG BÀI]"
+  },
+  "memberContent": {
+    "detailedExplanation": "",
+    "detailedVocabulary": [],
+    "comprehensionQuiz": [],
+    "vocabularyExercises": [],
+    "listeningExercises": [],
+    "practice": [],
+    "answers": []
+  }
+}
