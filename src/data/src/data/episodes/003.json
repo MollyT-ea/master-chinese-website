@@ -1,24 +1,25 @@
 {
   "metadata": {
     "id": "003",
-    "title": "[TIÊU ĐỀ TIẾNG TRUNG - Tiêu đề tiếng Việt]",
+    "title": "你想喝什么 - Bạn muốn uống gì",
     "slug": "003",
-    "level": "[HSK1 / HSK2 / HSK3...]",
+    "level": "HSK1",
     "speakers": ["小明", "小红"],
-    "youtubeUrl": "[DÁN LINK YOUTUBE TẬP NÀY VÀO ĐÂY]",
-    "publishDate": "[NĂM-THÁNG-NGÀY, ví dụ: 2026-08-18]",
+    "youtubeUrl": "https://www.youtube.com/watch?v=REPLACE_ME",
+    "publishDate": "2026-08-15",
     "access": "FREE"
   },
   "publicContent": {
-    "transcript": "[DÁN TOÀN BỘ TRANSCRIPT TIẾNG TRUNG VÀO ĐÂY, các câu cách nhau bằng \\n]",
-    "pinyin": "[DÁN PINYIN TƯƠNG ỨNG VÀO ĐÂY, các câu cách nhau bằng \\n]",
-    "translation": "[DÁN BẢN DỊCH TIẾNG VIỆT VÀO ĐÂY, các câu cách nhau bằng \\n]",
+    "transcript": "小明：你好，你渴不渴？\n小红：我有点渴。你这儿有什么喝的？\n小明：有茶，也有咖啡。你想喝什么？\n小红：我想喝茶，谢谢你。",
+    "pinyin": "Xiǎomíng: Nǐ hǎo, nǐ kě bu kě?\nXiǎohóng: Wǒ yǒudiǎn kě. Nǐ zhèr yǒu shénme hē de?\nXiǎomíng: Yǒu chá, yě yǒu kāfēi. Nǐ xiǎng hē shénme?\nXiǎohóng: Wǒ xiǎng hē chá, xièxiè nǐ.",
+    "translation": "Minh: Chào bạn, bạn có khát không?\nHồng: Mình hơi khát. Chỗ bạn có gì để uống không?\nMinh: Có trà, cũng có cà phê. Bạn muốn uống gì?\nHồng: Mình muốn uống trà, cảm ơn bạn.",
     "vocabulary": [
-      { "word": "[từ 1]", "pinyin": "[pinyin]", "meaning": "[nghĩa]" },
-      { "word": "[từ 2]", "pinyin": "[pinyin]", "meaning": "[nghĩa]" },
-      { "word": "[từ 3]", "pinyin": "[pinyin]", "meaning": "[nghĩa]" }
+      { "word": "渴", "pinyin": "kě", "meaning": "khát" },
+      { "word": "茶", "pinyin": "chá", "meaning": "trà" },
+      { "word": "咖啡", "pinyin": "kāfēi", "meaning": "cà phê" },
+      { "word": "想", "pinyin": "xiǎng", "meaning": "muốn" }
     ],
-    "basicExplanation": "[GIẢI THÍCH NGẮN VỀ 1 ĐIỂM NGỮ PHÁP/TỪ VỰNG ĐÁNG CHÚ Ý TRONG BÀI]"
+    "basicExplanation": "想 (xiǎng) + động từ dùng để diễn đạt mong muốn làm gì, ví dụ: 我想喝茶 (Tôi muốn uống trà)."
   },
   "memberContent": {
     "detailedExplanation": "",
